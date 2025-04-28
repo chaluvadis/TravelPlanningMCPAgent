@@ -1,0 +1,9 @@
+@TravelPlanningMCPAgent_HostAddress = http://localhost:5267
+
+###
+GET {{TravelPlanningMCPAgent_HostAddress}}/plantrip/?destination=Paris&checkIn=2023-10-01&checkOut=2023-10-10&guests=2
+Accept: application/json
+
+###
+GET {{TravelPlanningMCPAgent_HostAddress}}/plantrip-advanced/?destination=Paris&checkIn=2023-10-01&checkOut=2023-10-10&guests=2&interests=art,music
+Accept: application/json
