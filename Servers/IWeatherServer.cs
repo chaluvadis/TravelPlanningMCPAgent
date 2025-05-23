@@ -1,4 +1,5 @@
-using TravelPlanningMCPAgent.Servers;
+namespace TravelPlanningMCPAgent.Servers;
+
 public interface IWeatherServer
 {
     ValueTask<string> GetWeatherForecastAsync(string location, DateTime date);

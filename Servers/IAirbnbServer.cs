@@ -1,1 +1,0 @@
-// This file is obsolete. All logic is now in IBookingServer.cs. Safe to delete.
